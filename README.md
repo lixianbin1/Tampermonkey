@@ -18,8 +18,9 @@
 
 ### 真·百度清除广告
 
-    RemoveAd.js
-
 说明：清除百度的顽固广告，还你一片干净土地.
+
+    安装 RemoveAd.js 插件
+
 
 ![base664](./assets/start3.png)
