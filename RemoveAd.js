@@ -1,0 +1,40 @@
+// ==UserScript==
+// @name         真·百度去除广告
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  删除百度的垃圾广告
+// @author       lixianbin
+// @match        *://*.baidu.com/*
+// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    // 添加隐藏样式，防止页面闪烁
+    function hide(element) {
+        if (element != undefined) {
+            element.style.position = "fixed";
+            element.style.top = "-2000px";
+            element.style.position = "-2000px";
+        }
+    }
+     function clear(){
+        // 清除A类广告
+        const Aadvert = document.querySelectorAll("a[data-click]")
+        Aadvert.forEach(e=>{
+            if(e.getAttribute('data-click')=='{"rsv_snapshot":"1"}'){
+                hide($(e).parents('div.new-pmd')[0])
+            }
+        })
+        //清除B类广告
+        const Badvert = document.querySelectorAll("div[posid]")
+        Badvert.forEach(e=>{
+            hide($(e)[0])
+        })
+    }
+    // 循环定时，防止后面插入
+    const time = setInterval(()=>{
+        clear()
+    },100)
+})();
