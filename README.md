@@ -6,6 +6,8 @@
 
 请确保已先安装 [Tampermonkey](https://www.tampermonkey.net/) 脚本管理器
 
+查看 [安装 Tampermonkey 教程](./Docs/Tampermonkey.md).
+
 ## 安装脚本
 
 ### 真·百度清除广告
