@@ -42,6 +42,7 @@
     }
     //循环定时，防止后面插入
     const time = setInterval(()=>{
+        console.log('调试程序')
         clear()
     },100)
 })();
