@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         真·百度去除广告
 // @namespace    https://github.com/lixianbin1/Tampermonkey
-// @version      0.3
+// @version      0.4
 // @description  删除百度的垃圾广告
 // @author       lixianbin1
 // @match        *://*.baidu.com/*
+// @run-at       document-start
 // @supportURL   https://github.com/lixianbin1/Tampermonkey
-// @updateURL    https://github.com/lixianbin1/Tampermonkey/RemoveAd.js
+// @updateURL    https://github.com/lixianbin1/Tampermonkey/raw/main/RemoveAd.user.js
+// @downloadURL  https://github.com/lixianbin1/Tampermonkey/raw/main/RemoveAd.user.js
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
 
@@ -42,6 +44,7 @@
     }
     //循环定时，防止后面插入
     const time = setInterval(()=>{
+        console.log('灭杀程序执行')
         clear()
     },100)
 })();
