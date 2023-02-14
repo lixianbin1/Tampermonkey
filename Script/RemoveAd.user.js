@@ -44,7 +44,6 @@
     }
     //循环定时，防止后面插入
     const time = setInterval(()=>{
-        console.log('灭杀程序执行')
         clear()
     },100)
 })();
