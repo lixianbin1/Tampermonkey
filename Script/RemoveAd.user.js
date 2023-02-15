@@ -7,8 +7,8 @@
 // @match        *://*.baidu.com/*
 // @run-at       document-start
 // @supportURL   https://github.com/lixianbin1/Tampermonkey
-// @updateURL    https://github.com/lixianbin1/Tampermonkey/raw/main/RemoveAd.user.js
-// @downloadURL  https://github.com/lixianbin1/Tampermonkey/raw/main/RemoveAd.user.js
+// @updateURL    https://github.com/lixianbin1/Tampermonkey/raw/main/Script/RemoveAd.user.js
+// @downloadURL  https://github.com/lixianbin1/Tampermonkey/raw/main/Script/RemoveAd.user.js
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
 
