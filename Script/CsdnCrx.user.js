@@ -1,11 +1,10 @@
 // ==UserScript==
 // @name         真·CSDN功能扩展
 // @namespace    https://github.com/lixianbin1/Tampermonkey
-// @version      0.2
+// @version      0.3
 // @description  可以复制CSDN中的代码
 // @author       lixianbin1
 // @match        *://*.csdn.net/*
-// @run-at       document-start
 // @supportURL   https://github.com/lixianbin1/Tampermonkey
 // @updateURL    https://github.com/lixianbin1/Tampermonkey/raw/main/Script/CsdnCrx.user.js
 // @downloadURL  https://github.com/lixianbin1/Tampermonkey/raw/main/Script/CsdnCrx.user.js
@@ -36,7 +35,7 @@
     ele.innerHTML=style;
     var Head = document.getElementsByTagName('head')[0]
     Head.appendChild(ele)
-    [...document.querySelectorAll('*')].forEach(item=>{
+    document.querySelectorAll('*').forEach(item=>{
       item.oncopy = function(e) {
         e.stopPropagation();
       }
