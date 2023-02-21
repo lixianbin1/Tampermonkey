@@ -10,7 +10,7 @@
 
 ## 安装脚本
 
-### 真·百度清除广告
+### 真·百度清除广告 v0.4
 
 说明：清除百度的顽固广告，还你一片干净土地.
 
@@ -18,9 +18,9 @@
 
 ![base664](./assets/start3.png)
 
-### 真·CSDN功能扩展
+### 真·CSDN功能扩展 v0.2
 
-说明：取消网页中未登录状态不能复制的限制.
+说明：取消网页中未登录状态不能复制的限制.去除复制后携带的小尾巴。
 
 👉 [点击直接安装 js 脚本](https://github.com/lixianbin1/Tampermonkey/raw/main/Script/CsdnCrx.user.js)
 
