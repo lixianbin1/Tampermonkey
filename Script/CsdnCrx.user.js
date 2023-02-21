@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         真·CSDN功能扩展
 // @namespace    https://github.com/lixianbin1/Tampermonkey
-// @version      0.1
+// @version      0.2
 // @description  可以复制CSDN中的代码
 // @author       lixianbin1
 // @match        *://*.csdn.net/*
@@ -36,4 +36,9 @@
     ele.innerHTML=style;
     var Head = document.getElementsByTagName('head')[0]
     Head.appendChild(ele)
+    [...document.querySelectorAll('*')].forEach(item=>{
+      item.oncopy = function(e) {
+        e.stopPropagation();
+      }
+    });
   })();

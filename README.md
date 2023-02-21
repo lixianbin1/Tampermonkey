@@ -14,7 +14,7 @@
 
 说明：清除百度的顽固广告，还你一片干净土地.
 
-👉 [点击直接安装 RemoveAd.js 脚本](https://github.com/lixianbin1/Tampermonkey/raw/main/Script/RemoveAd.user.js)
+👉 [点击直接安装 js 脚本](https://github.com/lixianbin1/Tampermonkey/raw/main/Script/RemoveAd.user.js)
 
 ![base664](./assets/start3.png)
 
@@ -22,7 +22,7 @@
 
 说明：取消网页中未登录状态不能复制的限制.
 
-👉 [点击直接安装 RemoveAd.js 脚本](https://github.com/lixianbin1/Tampermonkey/raw/main/Script/CsdnCrx.user.js)
+👉 [点击直接安装 js 脚本](https://github.com/lixianbin1/Tampermonkey/raw/main/Script/CsdnCrx.user.js)
 
 ## 安装步骤
 
