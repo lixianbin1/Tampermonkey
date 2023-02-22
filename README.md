@@ -24,6 +24,12 @@
 
 👉 [点击直接安装 js 脚本](https://github.com/lixianbin1/Tampermonkey/raw/main/Script/CsdnCrx.user.js)
 
+### 真·必应清除广告 v0.1
+
+说明：清除必应的插入广告。
+
+👉 [点击直接安装 js 脚本](https://github.com/lixianbin1/Tampermonkey/raw/main/Script/ClearBing.user.js)
+
 ## 安装步骤
 
 >如以上点击安装无效，根据以下操作进行
