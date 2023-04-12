@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         真·百度去除广告
 // @namespace    https://github.com/lixianbin1/Tampermonkey
-// @version      0.4
+// @version      0.5
 // @description  删除百度的垃圾广告
 // @author       lixianbin1
 // @match        *://*.baidu.com/*
@@ -9,6 +9,7 @@
 // @supportURL   https://github.com/lixianbin1/Tampermonkey
 // @updateURL    https://github.com/lixianbin1/Tampermonkey/raw/main/Script/RemoveAd.user.js
 // @downloadURL  https://github.com/lixianbin1/Tampermonkey/raw/main/Script/RemoveAd.user.js
+// @require      https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
 
