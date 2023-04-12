@@ -10,7 +10,7 @@
 
 ## 安装脚本
 
-### 真·百度清除广告 v0.4
+### 真·百度清除广告 v0.5
 
 说明：清除百度的顽固广告，还你一片干净土地.
 
@@ -24,7 +24,7 @@
 
 👉 [点击直接安装 js 脚本](https://github.com/lixianbin1/Tampermonkey/raw/main/Script/CsdnCrx.user.js)
 
-### 真·必应清除广告 v0.1
+### 真·必应清除广告 v0.2
 
 说明：清除必应的插入广告。
 
