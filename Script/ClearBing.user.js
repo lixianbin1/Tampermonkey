@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         真·必应去除广告
 // @namespace    https://github.com/lixianbin1/Tampermonkey
-// @version      0.2
+// @version      0.21
 // @description  删除必应的各种广告
 // @author       lixianbin1
 // @match        *://*.bing.com/*
@@ -27,11 +27,6 @@
         const Aadvert = document.querySelectorAll("li[data-codexads]")
         Aadvert.forEach(e=>{
             hide(e)
-        })
-        //清除B类(列表随机插入广告)广告
-        const Badvert = $('.b_algo>h2')
-        Badvert.map((e,a)=>{
-            hide($(a).parents('li.b_algo')[0])
         })
     }
     //循环定时，防止后面插入
