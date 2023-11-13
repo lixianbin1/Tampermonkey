@@ -34,7 +34,7 @@
 
 说明：简单翻译下GitHub的页面。
 
-👉 [点击直接安装 js 脚本](https://github.com/lixianbin1/Tampermonkey/raw/main/Script/ClearBing.user.js)
+👉 [点击直接安装 js 脚本](https://github.com/lixianbin1/Tampermonkey/raw/main/Script/TranslationGH.user.js)
 
 ## 安装步骤
 
