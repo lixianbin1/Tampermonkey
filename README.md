@@ -30,6 +30,12 @@
 
 👉 [点击直接安装 js 脚本](https://github.com/lixianbin1/Tampermonkey/raw/main/Script/ClearBing.user.js)
 
+### 真·github简单翻译 v0.1
+
+说明：简单翻译下GitHub的页面。
+
+👉 [点击直接安装 js 脚本](https://github.com/lixianbin1/Tampermonkey/raw/main/Script/ClearBing.user.js)
+
 ## 安装步骤
 
 >如以上点击安装无效，根据以下操作进行
